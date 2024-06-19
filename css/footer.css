@@ -1,0 +1,80 @@
+.footer__container{
+    padding-top: 100px;
+    padding-bottom: 116px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    margin-bottom: 20px;
+    margin-right: 223px;
+}
+
+.messengers__list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 129px;
+}
+
+.messengers__item a {
+    margin-right: 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+.messengers__item:nth-child(1) a {
+    background-image: url("../img/messengers-1.png");
+  }
+  
+  .messengers__item:nth-child(2) a {
+    background-image: url("../img/messengers-2.png");
+  }
+  
+  .messengers__item:nth-child(3) a {
+    background-image: url("../img/messengers-3.png");
+  }
+
+  .nav{
+    margin-right: 120px;
+  }
+
+  .nav__item{
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+
+  .nav__item:last-child{
+    margin-bottom: 101px;
+  }
+
+  .nav__item a:hover{
+    color: #118DA8;
+  }
+
+  .other{
+    margin-right: 16px;
+  }
+
+  .other__item{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+
+  .other__item a:hover{
+    color: #118DA8;
+  }
+
+  .footer__social{
+    display: flex;
+    margin-right: 219px;
+  }
+
+
+

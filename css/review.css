@@ -1,0 +1,35 @@
+.review__container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.review__back {
+  padding: 50px;
+  background-color: #000;
+  border-radius: 32px;
+}
+
+.review__list{
+    display: flex;
+    column-gap: 5px;
+    margin-bottom: 21px;
+}
+
+.review__text{
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.review__name{
+    font-size: 24px;
+    line-height: 29px;
+    color:rgba(255, 255, 255, 0.7)
+}
+
+
+

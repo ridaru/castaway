@@ -1,0 +1,25 @@
+.header {
+  padding: 43px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navigation__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.navigation__item{
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.navigation__item:hover{
+    color: #118DA8;
+}
